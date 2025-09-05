@@ -1,5 +1,11 @@
+:root {
+  --text-color: #dbe4ef;
+  --card-front-color: #144480;
+  --card-back-color: #00F4BF;
+}
+
 body {
-    background-color: brown;
+    background: url('img/bg-desktop.webp');
   font-family: Bai Jamjuree;
 }
   footer {
@@ -14,6 +20,11 @@ body {
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
+
+#container {
+    display: flex; 
+}
+
 .cartao {
     margin: 1rem 1rem;
     background-color: aqua;
